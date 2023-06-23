@@ -1,6 +1,6 @@
 # 0x11. C - printf
 
-This is a collaboration project between [Adedamola Olawale](https://github.com/Dprof-code) and [Fashola Mueenat](https://github.com/mueenat) for the Software Engineering program. This project aims to build a custom implementation of the C `printf` function. The `printf` function is responsible for formatted output in C, allowing various types of data to be printed with different formatting options.
+This is a collaboration project between [Adedamola Olawale](https://github.com/Dprof-code) and [Fashola Mueenat](https://github.com/mueenat) for the ALX Software Engineering program. This project aims to build a custom implementation of the C `printf` function. The `printf` function is responsible for formatted output in C, allowing various types of data to be printed with different formatting options.
 
 ## Project Overview
 
