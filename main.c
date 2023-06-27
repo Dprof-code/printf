@@ -8,10 +8,19 @@
 
 int main(void)
 {
-	int count1, count2 = 0;
-	count1 = _printf("c\n");
-	count2 = printf("c\n");
+	int count1, count2, len1, len2 = 0;
+
+	char name[] = "Damola";
+
+	count1 = printf("%s\n", name);
+	count2 = _printf("%s\n", name);
 
 	printf("%d\n%d\n", count1, count2);
+
+	len1 = _printf("Percent:[%%]\n");
+	len2 = printf("Percent:[%%]\n");
+
+	printf("%d\n%d\n", len1, len2);
+
 	return (0);
 }
