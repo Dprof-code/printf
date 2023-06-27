@@ -17,3 +17,7 @@ Contributions to this project are welcome! If you have any improvements, bug fix
 ## Licence
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+
+## Project Duration
+
+[![wakatime](https://wakatime.com/badge/user/255a1e9f-e652-4b34-b3d8-07ca96938d4f/project/1eabe35d-87a9-4d78-a253-b722a69ace84.svg)](https://wakatime.com/badge/user/255a1e9f-e652-4b34-b3d8-07ca96938d4f/project/1eabe35d-87a9-4d78-a253-b722a69ace84)

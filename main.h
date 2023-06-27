@@ -25,5 +25,7 @@ int _putchar(char c);
 
 /* format specifiers functions */
 int print_char(va_list arg_list);
+int print_string(va_list arg_list);
+int print_percent(va_list arg_list);
 
 #endif
