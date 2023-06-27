@@ -17,6 +17,7 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{"d", print_signed_int},
 		{"i", print_unsigned_integer},
+		{"b", print_binary},
 		{NULL, NULL}
 	};
 	va_list arg_list;
