@@ -29,6 +29,7 @@ int print_string(va_list arg_list);
 int print_percent(va_list arg_list);
 int print_signed_int(va_list arg_list);
 int print_unsigned_integer(va_list arg_list);
+int print_binary(va_list arg_list);
 
 /** used functions */
 char *itoa(int num, char *str, int base);
