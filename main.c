@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int count1, count2, len, len2 = 0;
+	int count1, count2, len, len2 = 0, num = 30;
 
 	char name[] = "Damola";
 
@@ -38,6 +38,8 @@ int main(void)
 	_printf("%R\n", "String");
 	printf("Negative:[%d]\n", -762534);
 	_printf("Negative:[%d]\n", -762534);
+	printf("Number: %03d\n", num);
+
 
 	return (0);
 }
