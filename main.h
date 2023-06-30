@@ -35,6 +35,7 @@ int print_rot13(va_list arg_list);
 int print_custom(va_list arg_list);
 
 /** used functions */
+void print_precision(int value, int prec);
 void print_non_custom(const char* c, int num);
 char *itoa(int num, char *str, int base);
 char *rev_str(char *str);
