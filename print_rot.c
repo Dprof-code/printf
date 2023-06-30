@@ -12,7 +12,7 @@ int print_rot13(va_list arg_list)
 	char rra[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
 	int i;
 	int n;
-	int m = 0;
+	char m = 0;
 	int rot = 0;
 
 	c = va_arg(arg_list, char*);
@@ -30,7 +30,7 @@ int print_rot13(va_list arg_list)
 				m = 1;
 			}
 		}
-		if (m != '\0')
+		if (m == 0)
 		{
 			_putchar(c[i]);
 			rot++;

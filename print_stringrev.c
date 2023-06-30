@@ -8,10 +8,10 @@
 int print_str_rev(va_list arg_list)
 {
 	char *c = va_arg(arg_list, char*);
-	int i;
+	int i = 0;
 	int n;
 	int j;
-	int length;
+	int length = 0;
 
 	if (c == NULL)
 	{
