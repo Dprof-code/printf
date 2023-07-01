@@ -8,7 +8,32 @@ The objective of this project is to create a custom printf function, similar to 
 
 ## Project Structure
 
+The project is organized as follows:
+
+- `test/main.c`: The main program to test the `_printf` function.
+- `_printf.c`: The implementation of the `my_printf` function.
+- `main.h`: The header file containing function prototypes and any necessary macros or constants.
+- There are several other helper functions(reusable functions) and functions for every of the printf function.
+
 ## How to Use
+
+To build and run the project, follow these steps:
+
+1. Clone the project repository:
+
+`git clone https://github.com/Dprof-code/printf.git`
+
+2. Compile using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c ./test/main.c -o printf`
+
+3. Run the executable:
+
+`./printf`
+
+## Compile and Run snippet
+
+![Code Run Snippet](https://i.ibb.co/TP0qMSx/code-snippet.jpg)
 
 ## Contributions
 
