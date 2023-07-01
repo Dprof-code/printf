@@ -6,8 +6,11 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+#define LOCAL_BUFFER 1024
+
 /**
- * struct def_fmt_list - defines a structure for the format specifiers and their functions
+ * struct def_fmt_list - defines a structure for the
+ * format specifiers and their functions
  *
  * @fmt: format specifier symbol
  * @func: function
@@ -20,7 +23,8 @@ typedef struct def_fmt_list
 } def_fmt_list;
 
 int _printf(const char *format, ...);
-int handle_print(const char *format, def_fmt_list fmt_list[], va_list arg_list);
+int handle_print(const char *format,
+		def_fmt_list fmt_list[], va_list arg_list);
 int _putchar(char c);
 
 /* format specifiers functions */
@@ -30,6 +34,8 @@ int print_percent(va_list arg_list);
 int print_signed_int(va_list arg_list);
 int print_unsigned_integer(va_list arg_list);
 int print_binary(va_list arg_list);
+int print_unsigned_int(va_list arg_list);
+int print_octal(va_list arg_list);
 
 /** used functions */
 char *itoa(int num, char *str, int base);

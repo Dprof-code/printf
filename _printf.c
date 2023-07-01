@@ -18,6 +18,8 @@ int _printf(const char *format, ...)
 		{"d", print_signed_int},
 		{"i", print_unsigned_integer},
 		{"b", print_binary},
+		{"u", print_unsigned_int},
+		{"0", print_octal},
 		{NULL, NULL}
 	};
 	va_list arg_list;
