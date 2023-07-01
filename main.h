@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <limits.h>
 
 #define LOCAL_BUFFER 1024
 
@@ -36,7 +37,6 @@ int print_unsigned_integer(va_list arg_list);
 int print_binary(va_list arg_list);
 int print_unsigned_int(va_list arg_list);
 int print_octal(va_list arg_list);
-=======
 int print_str_rev(va_list arg_list);
 int print_rot13(va_list arg_list);
 int print_custom(va_list arg_list);
@@ -45,7 +45,7 @@ int print_custom(va_list arg_list);
 int base10(int base);
 void print_width(int value, int width);
 void print_precision(int value, int prec);
-void print_non_custom(const char* c, int num);
+void print_non_custom(const char *c, int num);
 char *itoa(int num, char *str, int base);
 char *rev_str(char *str);
 int _strlen(const char *str);

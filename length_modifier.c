@@ -2,6 +2,7 @@
 /**
  * lengthmod - function that handle length modifier
  * @value: value of length
+ * @width: width
  * @spec: specifier
  * @length: length mod
  * Return: void
@@ -40,16 +41,16 @@ void lengthmod(int value, int width, char spec, int length)
 	{
 		dig = prec % base;
 		prec /= base;
-            	width--;
-	
+		width--;
+
 		if (dig < 10)
-		digit = '0' + dig;
+			digit = '0' + dig;
 		else
 		{
 			if (spec == 'x')
-			digit = 'a' + dig - 10;
+				digit = 'a' + dig - 10;
 			else if (spec == 'X')
-			digit = 'A' + dig - 10;
+				digit = 'A' + dig - 10;
 		}
 		_putchar(digit);
 
@@ -57,7 +58,7 @@ void lengthmod(int value, int width, char spec, int length)
 			break;
 	}
 	while (width > 0)
-	{	
+	{
 		dig = value % base;
 		value /= base;
 		width--;
@@ -68,14 +69,14 @@ void lengthmod(int value, int width, char spec, int length)
 		}
 		else
 		{
-			if (spec == 'x')	
-			digit = 'a' + dig - 10;
+			if (spec == 'x')
+				digit = 'a' + dig - 10;
 			else if (spec == 'X')
-			digit = 'A' + dig - 10;
+				digit = 'A' + dig - 10;
 		}
 		_putchar(digit);
 
 		if (value == 0)
-		break;
-	}	
+			break;
+	}
 }

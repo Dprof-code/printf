@@ -32,12 +32,10 @@ int print_custom(va_list arg_list)
 			length = 0;
 			temp = value;
 		}
-		do
-		{
+		do {
 			length++;
 			temp /= 10;
-		}
-		while (temp != 0);
+		} while (temp != 0);
 		if (justify)
 		{
 			for (i = 0; i < length; i++)
