@@ -20,6 +20,9 @@ int _printf(const char *format, ...)
 		{"b", print_binary},
 		{"u", print_unsigned_int},
 		{"0", print_octal},
+		{"R", print_rot13},
+		{"r", print_str_rev},
+		{"-", print_custom},
 		{NULL, NULL}
 	};
 	va_list arg_list;

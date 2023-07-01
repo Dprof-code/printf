@@ -34,6 +34,22 @@ int main(void)
 	_printf("Len:[%d]\n", len);
 	printf("Len:[%d]\n", len2);
 	_printf("%b\n", 98);
+	_printf("%r\n", "Reverse");
+	_printf("%R\n", "String");
+	printf("Negative:[%d]\n", -762534);
+	_printf("Negative:[%d]\n", -762534);
+	printf("Length: [%03d]\n", len);
+	_printf("Negative:[%d]\n", -762534);
+	printf("Length[%d]\n", len);
+	_printf("Negative:[%d]\n", -762534);
+        printf("Length[%d]\n", len);
+	printf("Character:[%c]\n", 'd');
+	printf("Len:[%d]\n", len2);
+	_printf("Negative:[%d]\n", -762534);
+	printf("Length[%d]\n", len);
+
+
+
 
 	return (0);
 }
