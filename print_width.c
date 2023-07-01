@@ -18,8 +18,7 @@ void print_width(int value, int width)
 	temp = value;
 	while (temp /= 10)
 	{
-        	digit++;
-
+		digit++;
 	}
 	pad = width - digit;
 	for (i = 0; i < pad; i++)
