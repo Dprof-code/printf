@@ -11,7 +11,7 @@ The objective of this project is to create a custom printf function, similar to 
 The project is organized as follows:
 
 - `test/main.c`: The main program to test the `_printf` function.
-- `_printf.c`: The implementation of the `my_printf` function.
+- `_printf.c`: The implementation of the `_printf` function.
 - `main.h`: The header file containing function prototypes and any necessary macros or constants.
 - There are several other helper functions(reusable functions) and functions for every of the printf function.
 
